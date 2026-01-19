@@ -53,11 +53,6 @@
 		random_element = (await res.json()).name;
 	}
 
-	function getRandomSearchQuery(): string {
-		const q = random_element!.split(' ')[0];
-		return q.substring(0, Math.floor(q.length / 2));
-	}
-
 	beforeNavigate(() => {
 		random_element = null;
 	});
@@ -98,7 +93,6 @@
 		{/if}
 	</div>
 
-	<CustomLink href="/info">ℹ️</CustomLink>
 	<CustomLink href="/random">🔀</CustomLink>
 </div>
 
@@ -112,9 +106,6 @@
 		{#if noResults}
 			<CustomLink href="/info">😭 No Results</CustomLink>
 			<CustomLink href="/">❌ Clear</CustomLink>
-		{/if}
-		{#if random_element}
-			<CustomLink href={`?q=${getRandomSearchQuery()}`} fadeIn>✨ Random Search</CustomLink>
 		{/if}
 	</div>
 {/if}

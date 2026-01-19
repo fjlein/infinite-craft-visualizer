@@ -49,7 +49,7 @@
 				classes = 'bg-red-500';
 				break;
 			default:
-				classes = 'bg-gray-500';
+				classes = 'bg-gray-500 animate-pulse';
 				break;
 		}
 	}

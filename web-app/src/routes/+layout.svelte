@@ -24,9 +24,7 @@
 
 	<div class="h-[10vh] flex justify-between mx-4">
 		<p class="text-muted-foreground text-center">
-			Made with ❤️ by <a href="https://github.com/fjlein" class="underline underline-offset-4"
-				>fjlein</a
-			>
+			Made with ❤️ by <a href="https://fjlein.com" class="underline underline-offset-4">fjlein</a>
 		</p>
 		<p class="text-muted-foreground text-center">
 			Code on <a

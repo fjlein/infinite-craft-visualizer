@@ -48,7 +48,7 @@ export const GET: RequestHandler = async ({ url }) => {
 			}
 		},
 		{
-			$limit: 100
+			$limit: 1000
 		}
 	]);
 

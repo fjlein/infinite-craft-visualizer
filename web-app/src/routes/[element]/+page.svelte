@@ -131,7 +131,6 @@
 	<div class="flex flex-row justify-between space-x-2 font-medium">
 		<CustomLink href="/">⬅️ Search</CustomLink>
 		<div class="flex space-x-2">
-			<CustomLink href="/info">ℹ️</CustomLink>
 			<CustomLink href="/random" reload>🔀</CustomLink>
 		</div>
 	</div>
